@@ -1478,8 +1478,8 @@ window.switchVideo = function(idx){
     <div class="founder-layout" style="margin-top:44px">
       <div class="founder-left fade-up">
         <div class="founder-photo">
-          <img src="founder.jpg" alt="Founder Photo">
-          <div class="img-ph-overlay" style="border-radius:18px">
+          <img src="founder.jpg" alt="Founder Photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="img-ph-overlay" style="border-radius:18px;display:none">
             <div class="ph-icon">🧑‍💻</div>
             <div class="ph-path">📁 founder.jpg</div>
             <div class="ph-size">Your photo here<br>400×400px</div>
